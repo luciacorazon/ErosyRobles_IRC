@@ -27,9 +27,9 @@ class IRCClient:
             print(message)
 
 if __name__ == "__main__":
-    host = "127.0.0.1"  
+    host = "192.168.0.0"  #ip del server
     port = 8080
-    nickname = "Culogordo"
+    nickname = "john doe"
 
     client = IRCClient(host, port, nickname)
     client.connect()
